@@ -3,6 +3,7 @@ import SearchBox from "./searchBox";
 
 const apiUrl = 'https://get-album.herokuapp.com/album';
 
+
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
   const [posts, setPosts] = useState([]);
