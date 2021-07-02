@@ -1,7 +1,8 @@
 import {useState} from 'react'
 import SearchBox from "./searchBox";
 
-const apiUrl = 'http://localhost:4000/album';
+const apiUrl = 'https://get-album.herokuapp.com/album';
+
 
 function App() {
   const [searchQuery, setSearchQuery] = useState('');
